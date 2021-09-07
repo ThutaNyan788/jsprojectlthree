@@ -6,7 +6,7 @@
 
 body{
     font-family: sans-serif;
-    height: 100vh;
+    min-height: 100vh;
 
     display: flex;
     justify-content: center;
@@ -236,6 +236,16 @@ body{
 }
    
 
+@media (max-width:800px){
+    .price-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .price-box:nth-of-type(2){
+        transform: scale(1);
+    }
+}
 
 
 /* 4VA */
